@@ -1,24 +1,17 @@
-# who fuels the mandate.
+# Indonesia B40 → B50 | Power chains
 
-An interactive political economy atlas of Indonesia's B40-to-B50 palm-based biodiesel policy.
+An interactive research atlas about Indonesia’s palm-oil biodiesel transition, financing, power, and environmental governance.
 
-## Launch
+## Files
+- `index.html` — page structure and content
+- `css/styles.css` — all site styling
+- `js/app.js` — interactive cards, network, globe, and policy lab
 
-Upload `index.html`, `style.css`, and `script.js` to the root of a GitHub repository. Go to **Settings → Pages → Deploy from a branch → main / (root)**. Your site will appear at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/` after deployment.
+## Publish with GitHub Pages
+1. Create or open a GitHub repository.
+2. Upload **the contents of this ZIP**, not the ZIP file itself. Keep `index.html` at the repository root and retain the `css` and `js` folders.
+3. Open **Settings → Pages** and choose **Deploy from a branch**, **main**, **/(root)**, then **Save**.
+4. Wait for deployment and open the Pages URL displayed there.
 
-For local preview, open `index.html` in a browser. The site is static and requires no build tools.
-
-## What visitors can do
-
-- Pan and zoom an actor network; filter physical, financing, and oversight relationships.
-- Inspect stakeholder interests, risks, and governance questions.
-- Compare EU, Brazil, and Malaysia governance approaches.
-- Change four policy levers, copy the resulting proposal, or export a JSON scenario.
-
-## Research caution
-
-The actor network is schematic. The policy lab uses transparent heuristic scores, not empirically calibrated impact estimates. Claims of B50 harm are framed as conditional risks, not proven outcomes. Check the original sources linked in the site's evidence section before academic submission.
-
-## Design
-
-Poppins, deep navy, warm ivory, copper and teal. Responsive CSS. No JavaScript frameworks or external chart dependencies.
+## Notes
+The website loads Poppins from Google Fonts and detailed geographic boundaries from an online GeoJSON source; these require internet access. The globe has a simplified offline fallback. External research links are preserved from the uploaded v7 file. Numerical claims and policy dates should be checked against primary sources before academic publication. Policy lab scores are illustrative rather than forecasts.
